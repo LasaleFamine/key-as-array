@@ -1,0 +1,33 @@
+{
+  "name": "key-as-array",
+  "version": "1.0.0",
+  "description": "Get an array of a specific key from an array of object",
+  "license": "MIT",
+  "repository": "LasaleFamine/key-as-array",
+  "author": {
+    "name": "LasaleFamine",
+    "email": "info@godev.space",
+    "url": "godev.space"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "key-as-array",
+    "object",
+    "as",
+    "array",
+    "get"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "xo": "^0.17.1"
+  }
+}
