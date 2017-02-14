@@ -25,6 +25,10 @@ keyAsArray(arr, 'link');
 
 ### keyAsArray(input, keyName)
 
+#### return
+
+Type: `array` || `undefined`
+
 #### input
 
 Type: `array`

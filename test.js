@@ -1,10 +1,10 @@
 import test from 'ava';
 import fn from '.';
 
-test('throw when key not passed', t => {
+test('returns undefined when keyName is not passed', t => {
 	const testArr = [{link: 'a link'}, {link: 'other link'}];
-	const err = t.throws(() => fn(testArr));
-	t.is(err.message, 'Missing `keyName` param.');
+	const res = fn(testArr);
+	t.is(res, undefined);
 });
 
 test('returns correctly the array', t => {
