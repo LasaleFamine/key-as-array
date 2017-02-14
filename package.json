@@ -1,6 +1,6 @@
 {
   "name": "key-as-array",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get an array of a specific key from an array of object",
   "license": "MIT",
   "repository": "LasaleFamine/key-as-array",
